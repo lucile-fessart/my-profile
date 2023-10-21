@@ -1,0 +1,87 @@
+/* Colors abd fonts*/
+body{
+	background: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-size: 16xp;
+}
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	color:hotpink;
+	font-weight: 900;
+	font-size: 24xp;
+}
+
+h2{
+	color:rgb(50, 50, 50);
+
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+a{
+	text-decoration:none ;
+	color:hotpink;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover{
+	color:purple;
+}
+
+
+
+
+/*custom design with class*/
+.container{
+	width: 700px;
+	margin:40px auto;
+
+}
+
+
+@media (max-width:500px){
+	.container{
+		width: 400px;
+	}
+}
+@media(max-width:760px){
+	.container{
+		width: 600px;
+	}
+}
+
+.card-white {
+	background-color:white ;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-purple{
+	background-color: hotpink;
+	color: white;
+	padding: 10px 15px ;
+	border-radius: 5px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display:inline ;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 55px;
+}
+#introduction p {
+	margin-bottom: 40px;
+
+}
